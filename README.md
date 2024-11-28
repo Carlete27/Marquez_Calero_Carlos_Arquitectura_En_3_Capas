@@ -16,3 +16,12 @@ El objetivo de esta práctica es diseñar e implementar una arquitectura LAMP en
 
 #### 3.1 Creación de las VPCs
 Para esta practica que desarrollaremos en AWS, necesitaremos crear un Virtual Private Network o VPC. Esta VPC dispondrá de 3 subredes, una de ellas será **Pública**, esta estará conectada a una instancia situada en la capa 1 de nuestro entorno, cuya función será la de actuar como un Balanceador de Carga. Las otras dos subredes **Privadas** estaran conectadas a las instancias que se encuentren en la capa 2 y en la capa 3, es decir, los servidores Backend, NFS y MySQL.
+
+##### Paso 1: Asignamos un nombre a nuestra nueva VPC y definimos su bloque CIRD IPv4:
+![image](https://github.com/user-attachments/assets/d6a9658e-631f-4fe0-8b32-81bf7fd78d86)
+
+##### Paso 2: Definimos el numero de zonas de disponibilidad y la cantidad de subredes públicas y privadas:
+![image](https://github.com/user-attachments/assets/e057d627-ccf7-43f8-bbf4-6330c5d6b6d1)
+
+
+
