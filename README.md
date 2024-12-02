@@ -30,6 +30,9 @@ Para esta practica que desarrollaremos en AWS, necesitaremos crear un Virtual Pr
 ![image](https://github.com/user-attachments/assets/9c1b8299-339a-43cc-a8be-fc994f955f4e)
 ![image](https://github.com/user-attachments/assets/296fe761-524c-4c95-8e30-f646b4d51deb)
 
+#### 3.2 Creación de Instancias
+A continuación nos dispondremos a crear una serie de instancias con una AMI de Ubuntu-Server 24.04. Una de ellas será la encargada de balancear las solicitudes recibidas desde internet, situada en la primera de las tres capas de nuestro despliege, hacia los servidores bakend, situada en la segunda de las tres capas de nuestro despliege, las cuales se conectarán al servidor de MySQL, situado
+
 
 
 
