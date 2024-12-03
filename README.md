@@ -68,6 +68,50 @@ Para que el balanceador funcione de forma optima, iniciaremos ejecutando dos com
 - Ejemplo:
   ![image](https://github.com/user-attachments/assets/f55114b3-cfef-4b6f-b236-37c70f63ec28)
 
+###### Paso 2: Instalación de Apache:
+La herramienta principal en esta practaca se llama Apache2, un interprete de sitios Webs, que junto a php (en los servidores webs), nos ayudará al correcto balanceo de carga y a un resultado optimo de la practica:
+- Instalar Apache2:
+  ```
+  sudo apt-get install apache2 -y
+  ```
+  ![image](https://github.com/user-attachments/assets/30573682-31fa-47d2-a520-a4041c955c8a)
+
+- Iniciación y comprobación de apache:
+  ```
+  sudo systemctl start apache2
+  ```
+  ```
+  sudo systemctl enable apache2
+  ```
+  ```
+  sudo systemctl status apache2
+  ```
+  ![image](https://github.com/user-attachments/assets/b36a0137-75b8-4c23-87f4-cde243066e60)
+
+- Comprobación de que apache funciona (Navegador):
+  ![image](https://github.com/user-attachments/assets/c3ec103f-a0d6-4544-985e-634bdaf92e96)
+
+- Configuración del fichero de Balanceo:
+  ```
+  cd /etc/apache2/sites-available/
+  ```
+  ```
+  sudo a2dissite 000-default.conf
+  ```
+  ```
+  sudo systemctl restart apache2
+  ```
+  ```
+  sudo systemctl reload apache2
+  ```
+  ![image](https://github.com/user-attachments/assets/e4a0ed5d-b5b5-4bcc-8e97-0dbd4ad68248)
+  ```
+  sudo cp 000-default.conf Balanceo.conf
+  ```
+  
+
+
+
 
 
 
