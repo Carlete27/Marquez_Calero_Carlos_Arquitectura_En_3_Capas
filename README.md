@@ -115,7 +115,7 @@ La herramienta principal en esta practaca se llama Apache2, un interprete de sit
   ```
   sudo nano Balanceo.conf
   ```
-  ![image](https://github.com/user-attachments/assets/fb68c7bd-2204-4aa9-bea2-ff0d7544d25e)
+  ![image](https://github.com/user-attachments/assets/1837cd7e-de5a-4002-b870-3b8940baa461)
 
   Habilitamos el nuevo archivo .conf:
   ```
