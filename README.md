@@ -121,9 +121,15 @@ La herramienta principal en esta practaca se llama Apache2, un interprete de sit
   ```
   sudo a2ensite Balanceo.conf
   ```
+  Reiniciamos apache y comprobamos que esta funcionando de manera correcta:
+  ```
+  sudo systemctl restart apache2
+  ```
+  ```
+  sudo systemctl status apache2
+  ```
+  ![image](https://github.com/user-attachments/assets/4dc4f535-94d6-492f-9509-9e44f1e4f70b)
 
-  
-  
 
 
 
