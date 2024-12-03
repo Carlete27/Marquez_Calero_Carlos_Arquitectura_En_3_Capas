@@ -50,6 +50,22 @@ Dado a que la instancia que estamos creando, va a situarse en una subred públic
 ![Captura de pantalla 2024-11-28 133233](https://github.com/user-attachments/assets/550f1a63-ba3b-445a-b05e-79fdbc41533d)
 ![Captura de pantalla 2024-11-28 133244](https://github.com/user-attachments/assets/622c34d7-6d80-4546-bd5c-bed8d6235cc8)
 
+#### 3.3 Configuración Servidores Web y Balanceador
+Ahora comenzaremos con la configuración interna de los servidores webs y el balanceador de carga, en este último solo instalaremos el servicio de Apache2, con el cual mediane una directiva proxy asociada a un documento .conf, conseguiremos poder balancear la cargar entre los 2 servidores webs.
+
+##### 3.3.1 Configuración del Balanceador de Carga
+
+###### Paso 1: Actualizamos los repositorios y paquetes
+Para que el balanceador funcione de forma optima, iniciaremos ejecutando dos comandos que nos permitan actualizar la lista de repositorios y estos ultimos a su versión mas reciente:
+- Actualizar lista de Repositorios:
+  ```
+  sudo apt-get update
+  ```
+- Actualizar repositorios a la Última Versión:
+  ```
+  sudo apt-get upgrade -y
+  ```
+
 
 
 
