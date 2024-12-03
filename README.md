@@ -110,8 +110,9 @@ La herramienta principal en esta practaca se llama Apache2, un interprete de sit
   ```
   Editamos el fichero de Balanceo:
   ```
-  sudo nano 
+  sudo nano Balanceo.conf
   ```
+  
   
 
 
