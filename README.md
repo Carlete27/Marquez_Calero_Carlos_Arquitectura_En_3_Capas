@@ -68,7 +68,7 @@ Para que el balanceador funcione de forma optima, iniciaremos ejecutando dos com
 - Ejemplo:
   ![image](https://github.com/user-attachments/assets/f55114b3-cfef-4b6f-b236-37c70f63ec28)
 
-###### Paso 2: Instalación de Apache:
+###### Paso 2: Instalación y Configuración de APACHE2:
 La herramienta principal en esta practaca se llama Apache2, un interprete de sitios Webs, que junto a php (en los servidores webs), nos ayudará al correcto balanceo de carga y a un resultado optimo de la practica:
 - Instalar Apache2:
   ```
@@ -130,6 +130,8 @@ La herramienta principal en esta practaca se llama Apache2, un interprete de sit
   ```
   ![image](https://github.com/user-attachments/assets/4dc4f535-94d6-492f-9509-9e44f1e4f70b)
 
+  ##### 3.3.2 Configuración de los servidores WEBs:
+  Estos servidores son los encargardos mediante el uso de Apache y PHP, y el uso de una carpeta compartida con todos los recusos necesarios para el despliege de wordpress, alojada en el servidor NFS
 
 
 
