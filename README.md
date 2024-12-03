@@ -65,6 +65,9 @@ Para que el balanceador funcione de forma optima, iniciaremos ejecutando dos com
   ```
   sudo apt-get upgrade -y
   ```
+- Ejemplo:
+  ![image](https://github.com/user-attachments/assets/f55114b3-cfef-4b6f-b236-37c70f63ec28)
+
 
 
 
