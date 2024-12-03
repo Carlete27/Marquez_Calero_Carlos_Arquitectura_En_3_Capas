@@ -131,7 +131,40 @@ La herramienta principal en esta practaca se llama Apache2, un interprete de sit
   ![image](https://github.com/user-attachments/assets/4dc4f535-94d6-492f-9509-9e44f1e4f70b)
 
   ##### 3.3.2 Configuración de los servidores WEBs:
-  Estos servidores son los encargardos mediante el uso de Apache y PHP, y el uso de una carpeta compartida con todos los recusos necesarios para el despliege de wordpress, alojada en el servidor NFS
+  Estos servidores son los encargardos mediante el uso de Apache y PHP, y el uso de una carpeta compartida con todos los recusos necesarios para el despliege de wordpress, alojada en el servidor NFS, de poder desplegar como tal nuestra aplicacion web mediante las solicitudes recibidas de parte del balanceador de carga.
+
+  ###### Paso 1: Instalación y Configuración de Apache:
+  - Actualizamos repositorios a ultima versión:
+  ```
+  sudo apt-get update
+  ```
+  ```
+  sudo apt-get upgrade -y
+  ```
+    ![image](https://github.com/user-attachments/assets/d63e6277-e13e-4736-94da-267d4ab0c22f)
+    ![image](https://github.com/user-attachments/assets/a867213f-5394-4e5d-a5b2-8cfa59cea683)
+
+  - Instalación de Apache y PHP (+ Librerías):
+  ```
+  sudo apt-get install apache2 -y
+  ```
+  ![image](https://github.com/user-attachments/assets/46db2a23-ccb1-49ea-9f6a-121d21930631)
+
+  ```
+  sudo apt install -y software-properties-common
+  ```
+  ```
+  sudo add-apt-repository ppa:ondrej/php
+  ```
+  ```
+  sudo apt-get update
+  ```
+  
+  
+
+  
+
+
 
 
 
