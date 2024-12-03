@@ -108,6 +108,10 @@ La herramienta principal en esta practaca se llama Apache2, un interprete de sit
   ```
   sudo cp 000-default.conf Balanceo.conf
   ```
+  Editamos el fichero de Balanceo:
+  ```
+  sudo nano 
+  ```
   
 
 
