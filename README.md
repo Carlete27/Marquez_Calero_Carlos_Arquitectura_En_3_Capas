@@ -149,6 +149,21 @@ La herramienta principal en esta practaca se llama Apache2, un interprete de sit
   sudo apt-get install apache2 -y
   ```
   ```
+  sudo apt install -y software-properties-common
+  ```
+  ```
+  sudo add-apt-repository ppa:ondrej/php
+  ```
+  ```
+  sudo add-apt update
+  ```
+  ```
+  sudo apt-get install apache2 -y
+  ```
+  ```
+  sudo apt install php7.4
+  ```
+  ```
   sudo apt install php7.4-gd php7.4-intl
   ```
   ```
@@ -157,7 +172,6 @@ La herramienta principal en esta practaca se llama Apache2, un interprete de sit
   ```
   sudo update-alternatives --set php /usr/bin/php7.4
   ```
-
   
   ![image](https://github.com/user-attachments/assets/46db2a23-ccb1-49ea-9f6a-121d21930631)
 
