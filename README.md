@@ -158,9 +158,6 @@ La herramienta principal en esta practaca se llama Apache2, un interprete de sit
   sudo add-apt update
   ```
   ```
-  sudo apt-get install apache2 -y
-  ```
-  ```
   sudo apt install php7.4
   ```
   ```
