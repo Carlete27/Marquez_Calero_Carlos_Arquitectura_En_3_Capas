@@ -148,6 +148,17 @@ La herramienta principal en esta practaca se llama Apache2, un interprete de sit
   ```
   sudo apt-get install apache2 -y
   ```
+  ```
+  sudo apt install php7.4-gd php7.4-intl
+  ```
+  ```
+  sudo apt install php7.4-cli php7.4-common php7.4-curl php7.4-zip php7.4-gd php7.4-mysql php7.4-xml php7.4-mbstring php7.4-json php7.4-intl libapache2-mod-php7.4
+  ```
+  ```
+  sudo update-alternatives --set php /usr/bin/php7.4
+  ```
+
+  
   ![image](https://github.com/user-attachments/assets/46db2a23-ccb1-49ea-9f6a-121d21930631)
 
   ```
@@ -159,6 +170,8 @@ La herramienta principal en esta practaca se llama Apache2, un interprete de sit
   ```
   sudo apt-get update
   ```
+
+  
   
   
 
