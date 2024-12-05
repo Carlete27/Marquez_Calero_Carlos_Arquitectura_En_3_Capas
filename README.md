@@ -175,6 +175,8 @@ La herramienta principal en esta practaca se llama Apache2, un interprete de sit
   sudo apt-get update
   ```
 
+  Resultado Final: https://carletewp.ddnsking.com/
+
   
   
   
