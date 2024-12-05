@@ -171,13 +171,6 @@ La herramienta principal en esta practaca se llama Apache2, un interprete de sit
   ```
   
   ![image](https://github.com/user-attachments/assets/46db2a23-ccb1-49ea-9f6a-121d21930631)
-
-  ```
-  sudo apt install -y software-properties-common
-  ```
-  ```
-  sudo add-apt-repository ppa:ondrej/php
-  ```
   ```
   sudo apt-get update
   ```
